@@ -1,7 +1,4 @@
-# Online Shopping Cart (E-Commerce Website)
-- Youtube Video for introduction, demo and setup for this Project: https://www.youtube.com/watch?v=RgQG0_orFpM
-<!-- - YouTube video for step by step local setup of similar project: https://www.youtube.com/watch?v=mLFPodZO8Iw&t=8s -->
-<!-- Live site url: https://ellisonelectronics.herokuapp.com -->
+# Online Shopping E - Shop (E-Commerce Website)
 This is an E-Commerce Website build for selling of any electronics products online.
 
 ### About
@@ -40,13 +37,13 @@ Note: The payment page is created only for demo purpose and its not fully integr
 - MySql
 
 ### ================ Software And Tools Required ================
-- : Git [https://www.youtube.com/watch?v=gv7VPQ4LZ7g]
-- : Java JDK 8+ [https://www.youtube.com/watch?v=O9PWH9SeTTE]
-- : Eclipse EE (Enterprise Edition) [https://www.youtube.com/watch?v=8aDsEV7txXE]
-- : Apache Maven [https://www.youtube.com/watch?v=jd2zx3dLjuw]
-- : Tomcat v8.0+ [https://youtu.be/mLFPodZO8Iw?t=903]
-- : MySQL Server [https://www.youtube.com/watch?v=Ydh5jYA6Frs]
-- : MySQL Workbench [https://www.youtube.com/watch?v=t79oCeTXHwg]
+- : Git 
+- : Java JDK 8+ 
+- : Eclipse EE (Enterprise Edition) 
+- : Apache Maven 
+- : Tomcat v8.0+ 
+- : MySQL Server 
+- : MySQL Workbench 
 
 ### ================= Dummy Database Initialization =================
 STEP 1: Open MySQL Command Prompt or MySQL Workbench
@@ -74,7 +71,7 @@ Step 6: Done : Now continue to importing the project. [Don't share the above pas
 
 Step 1: Open Eclipse Enterprise Edition. [Install, if not already installed.]
 
-Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/shashirajraja/shopping-cart.git```> Select master Branch > Next > Next > Finish.
+Step 2: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://github.com/Devpathak75/dev755/edit/master/README.md```> Select master Branch > Next > Next > Finish.
 
 Step 3: Go inside ```Java Resources > src > application.properties``` and update the values as below:
 - a) Update value for db.username and db.password according to your installed mysql credentials.
@@ -102,14 +99,6 @@ Step 9:  [To Change the Port, if getting error like 'port already in use'] Open 
 Step 10: Default Username And Password For Admin Is "admin@gmail.com" And "admin"
 
 Step 11: The default Username And Password For User Is "guest@gmail.com" And "guest"
-
-## FAQ
-**Question:1** Unable to Connect to Database?
-
-**Answer:** Please check you have installed the mysql correctly and have updated the correct db details in application.properties file. Also you can try doing maven clean install and force update the project and restart.
-<hr>
-
-Note:- This is a Sample Project for learning purpose, we have not much considered of web security.
 
 #### Some Screenshots for the project:
 - Home Page
@@ -144,15 +133,7 @@ Note:- This is a Sample Project for learning purpose, we have not much considere
 - Update the stock item
 ![image](https://github.com/shashirajraja/shopping-cart/assets/34605595/1529a9a7-19a3-4381-ac58-29dbc55229d9)
 - Sample Email for order placed
-<img width="404" alt="image" src="https://github.com/shashirajraja/shopping-cart/assets/34605595/cb60c616-c32c-42eb-abe5-494d8574c09a">
+  
 
 - Class Diagram
-<img width="589" alt="image" src="https://github.com/shashirajraja/shopping-cart/assets/34605595/d6dbfdb9-5108-4071-b4b6-d055f0370acd">
-
-#### "Suggestions and project improvement ideas are welcomed!"
-
-<bold>Thanks a lot,</bold><br/>
-                                                                                                        Project Leader<br/>
-                                                                                                         <b>Shashi Raj</b>
-
-
+  
